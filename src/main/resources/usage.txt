@@ -1,0 +1,12 @@
+Expected usage:
+java -jar wordsquare.jar <Word Square Order> <Character Input>
+
+- Word Square Order
+    Word square order denotes the n x n dimensions of the word square that is to be built
+- Character Input
+    The character input is a string of characters from which valid words must be made when filling in the word square
+    Each character can only be used once across all words
+    Due to the nature of the word square, the Character Input must be equal in length to Order^2
+
+For more details about word squares, please refer to https://en.wikipedia.org/wiki/Word_square
+
