@@ -17,3 +17,7 @@ The resulting reduced word list is then deterministically processed to try and s
 attempts are made/accepted/rejected updated. Recursion is used to process each additional word.
 Current accepted words in the solution (which may be rejected in future recursions as a non-valid solution) are used to limit
 the validity of future words and ensure the word square constraints are met.
+
+# Example usage:
+
+java -jar wordsquare-1.0.jar 4 eeeeddoonnnsssrv
